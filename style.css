@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.section {
+    padding: 50px 0;
+}
+.project-card {
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+footer a {
+    color: #ffffff;
+}
+.project-card img {
+    height: 200px; /* 必要に応じて画像の高さを統一 */
+    object-fit: cover; /* サイズを調整して画像をトリミング */
+}
